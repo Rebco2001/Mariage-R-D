@@ -6,11 +6,11 @@
 
 body {
 	font-weight: 300;
-	color: #fff;
+	color: #000;
 }
 
 img {
-	filter: grayscale(50%) contrast(80%) brightness(50%);
+	/*filter: grayscale(50%) contrast(80%) brightness(50%);*/
 }
 
 /* Hero section */
