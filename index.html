@@ -14,6 +14,9 @@
 </head>
 <body>
 <!-- partial:index.partial.html -->
+<audio autoplay="autoplay" loop="loop" type="audio/mp3" >
+	<source src="videoplayback.mp3">
+</audio>
 <section class="parallax-container" >
 	<div class="parallax">
 		<img src="https://static.jewishnews.co.uk/jewishnews/uploads/2017/10/Israel-wedding.jpg">
@@ -129,13 +132,6 @@
 <!-- partial -->
 <script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js'></script>
 <script src='https://cdnjs.cloudflare.com/ajax/libs/materialize/0.100.2/js/materialize.min.js'></script><script  src="./script.js"></script>
-<script>
-	var audio = new Audio('videoplayback.mp3')
-	$("body").click(() => (audio.play()))
-
-	$('#presence').change(() => $('#presence').val() == "0" ? $('#justifpresent').hide() : $('#justifpresent').show())
-	$('#presence').change(() => $('#presence').val() == "0" ? $('#nbperson').prop('required', false) : $('#nbperson').prop('required', true))
-</script>
 
 </body>
 </html>
