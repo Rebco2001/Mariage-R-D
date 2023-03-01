@@ -46,3 +46,9 @@ $(document).ready(function() {
 				}
 			}
 		});
+
+// Get the video
+//var audio = document.getElementById("audio");
+//document.addEventListener('DOMContentLoaded', function() {
+//	audio.play;
+// });
